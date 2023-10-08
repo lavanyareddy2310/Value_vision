@@ -1,0 +1,278 @@
+button{
+  border-radius: 0.75rem;
+  background: #34C9F9;
+  display: inline-flex;
+  padding: 0.625rem 3.125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+color: white;
+border: none;
+outline: none;
+width: 12rem;
+
+}
+
+body{
+  background-color: #081122;
+  /* height: 131rem; */
+}
+
+.main nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 7rem;
+}
+
+.main img{
+  width: 12rem;
+}
+
+.border-btn{
+  border-radius: 0.75rem;
+  border: 2px solid #34C9F9;
+  background: rgba(217, 217, 217, 0.00);
+  width:12.5rem;
+  color: #34C9F9;
+}
+
+.hero-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.hero-content img{
+  width: 42rem;
+  height: 43rem;
+  z-index: -999;
+}
+
+
+.hero-right h2{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.hero-right{
+  display: flex;
+  flex-direction: column;
+  gap:5rem;
+  margin-top: -200px;
+}
+
+.hero-button{
+  display: flex;
+  gap: 2rem;
+}
+
+.mid{
+  background:url('/whitecard.png');
+  width: 100%;
+  height: 45rem;
+  background-repeat: no-repeat;
+  margin-top: -100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.mid h1{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #081122;
+}
+
+.mid-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:4.7rem;
+  padding-top: 10rem;
+}
+
+.news{
+  background: url('blueOutlineCard.png');
+  width: 63rem;
+  height: 36rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+}
+
+.news-letter{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 4rem;
+
+}
+
+.news img{
+  width: 41rem;
+  height: 27rem;
+  margin-left:-180px;
+  margin-top: 82px;
+}
+
+.news-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:2rem;
+  margin-top:-80px;
+  margin-left: -50px;
+}
+
+.news-email{
+  display: flex;
+  gap:1rem;
+}
+
+.news h1{
+   font-size: 3.25rem;
+   color:white;
+   font-weight: 600;
+}
+
+.news-email input{
+  width: 24rem;
+  height: 3.25rem;
+  border-radius: 1.25rem;
+border: 2px solid #34C9F9;
+background: rgba(217, 217, 217, 0.00);
+padding: 1rem;
+font-size: 1.1rem;
+}
+
+.btn{
+  border-radius: 1.25rem;
+background: #34C9F9;
+font-size: 1.5rem;
+width: 4.25rem;
+height: 3.25rem;
+}
+
+.footer{
+  width: 100%;
+  background-color: #0F0F0F;
+  display: flex;
+  justify-content:center;
+  color: white;
+  height: 3rem;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4rem;
+}
+
+.linkedin{
+  display: flex;
+  gap:5px;
+  align-items: center;
+  border-right: 1px solid white;
+  padding-right: 1rem;
+}
+
+
+/* media queries */
+
+@media (max-width:1300px){
+  .hero-content img {
+    width: 47rem;
+    height: 39rem; 
+}
+
+.hero-right{
+  margin-top: -22px;
+  gap:3rem;
+}
+
+.hero-right h2{
+font-size: 2rem;
+}
+
+button{
+  width: 10rem;
+  padding: 0.625rem 1.125rem;
+  font-size: 0.65rem;
+  height: 2.8rem;
+}
+
+.border-btn{
+  width: 10rem;
+  font-size: 0.65rem;
+  padding: 0.625rem 1.125rem;
+  height: 2.8rem;
+ }
+
+ .mid{
+  height: 56rem;
+ }
+
+ .mid-card{
+  flex-wrap: wrap;
+  padding-top: 6rem;
+ }
+
+ .mid h1{
+  padding-top: 110px;
+  font-size: 2.5rem;
+ }
+
+ .news{
+  width: 42rem;
+ }
+
+ .news img{
+  width: 26rem;
+    height: 18rem;
+    margin-left: -100px;
+    margin-top: 54px;
+ }
+
+ .news h1{
+  font-size: 2rem;
+ }
+
+ .news-email{
+  gap:0.8rem;
+ }
+
+ .news-right{
+  margin-top: -232px;
+    margin-left: -24px;
+ }
+
+ .news-email input{
+  width: 16rem;
+  height: 2.5rem;
+  padding: 0.6rem;
+  font-size: 0.8rem;
+ }
+
+ .btn{
+  border-radius: 0.89rem;
+  background: #34C9F9;
+  font-size: 1rem;
+  width: 4rem;
+  font-weight: 700;
+  height: 2.5rem;
+ }
+}
+
+/* .hero-content img {
+    width: 47rem;
+    height: 39rem; */
+
+@media (max-width:960px) {
+  .hero-content img{
+    width: 26rem;
+      height: 30rem;
+  }
+}    
